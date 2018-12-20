@@ -6,11 +6,12 @@
       v-for="(list, index) in lists"
       :key="index">
       <div class="f">
-        {{list.name}}
+        {{list.name | getLenString(20)}}
       </div>
       <router-link v-if="list.route.type === 0" class="r" :to="list.route.url">前往</router-link>
       <a :href="list.route.url" class="r" v-if="list.route.type === 1">前往</a>
     </div>
+    <div>{{new Date() | formatTime}}</div>
   </div>
 </template>
 

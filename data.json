@@ -1,7 +1,7 @@
 {
   "home": [
     {
-      "name": "Vue v-指令及模板语法",
+      "name": "Vue v-指令及模板语法和简单事件",
       "route": {
         "type": 0 ,
         "url": "/template"
@@ -22,31 +22,45 @@
       } 
     },
     {
-      "name": "Vue mock数据的使用(node构建模拟请求)",
+      "name": "Vue minxs slot(未完成)",
       "route": {
         "type": 1 ,
-        "url": "https://cn.vuejs.org/v2/guide/class-and-style.html"
+        "url": ""
       } 
     },
     {
-      "name": "Vue axios接口请求的封装(有待完善)",
+      "name": "Vue mock数据的使用(node构建模拟请求)",
       "route": {
         "type": 1 ,
-        "url": "https://cn.vuejs.org/v2/guide/class-and-style.html"
+        "url": "https://github.com/tanxiaoj/vue-small-demo/blob/master/vue.config.js"
+      } 
+    },
+    {
+      "name": "Vue axios接口请求的封装(有待完善)及接口api",
+      "route": {
+        "type": 1 ,
+        "url": "https://github.com/tanxiaoj/vue-small-demo/tree/master/src/api"
       } 
     },
     {
       "name": "Vue-router 代码",
       "route": {
         "type": 1 ,
-        "url": "https://cn.vuejs.org/v2/guide/class-and-style.html"
+        "url": "https://github.com/tanxiaoj/vue-small-demo/blob/master/src/router.js"
       } 
     },
     {
-      "name": "Vue Scroll使用",
+      "name": "Vue Scroll使用(未完成)",
       "route": {
         "type": 1 ,
-        "url": "https://cn.vuejs.org/v2/guide/class-and-style.html"
+        "url": ""
+      } 
+    },
+    {
+      "name": "Vuex 数据管理(未完成)",
+      "route": {
+        "type": 1 ,
+        "url": ""
       } 
     }
   ],

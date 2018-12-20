@@ -13,7 +13,7 @@ module.exports = {
     'eslint-disable': 'off',
     'eslint-disable-next-line': 'off',
     // "eqeqeq": [2, "allow-null"],
-    "eqeqeq": 'off',
+    'eqeqeq': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint'

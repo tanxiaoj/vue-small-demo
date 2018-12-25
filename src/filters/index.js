@@ -1,4 +1,4 @@
-export { formatTime } from 'utils/'
+export { formatTime } from 'utils'
 // 过滤器
 export function getLenString (str, len) {
   if (typeof str !== 'string') {
@@ -8,6 +8,6 @@ export function getLenString (str, len) {
   if (length > len) {
     return str.substring(0, len) + '...'
   } else {
-    return str  
+    return str
   }
 }

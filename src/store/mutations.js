@@ -1,8 +1,11 @@
 import * as types from './mutation-types'
 
 const matutions = {
-  [types.SET_SINGER] (state, singer) {
-    state.singer = singer
+  [types.SET_TOKEN] (state, token) {
+    state.token = token
+  },
+  [types.COUNT_PAGE_CS] (state, pageCount) {
+    state.pageCount = pageCount
   }
 }
 

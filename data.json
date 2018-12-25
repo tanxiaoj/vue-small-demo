@@ -57,10 +57,10 @@
       } 
     },
     {
-      "name": "Vuex 数据管理(未完成)",
+      "name": "Vuex 数据管理",
       "route": {
-        "type": 1 ,
-        "url": ""
+        "type": 0 ,
+        "url": "/vux"
       } 
     }
   ],

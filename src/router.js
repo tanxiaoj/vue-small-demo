@@ -12,6 +12,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/login',
+      name: 'login',
+      component: () => import('views/login.vue')
+    },
+    {
       path: '/template',
       name: 'template',
       // route level code-splitting
@@ -23,6 +28,16 @@ export default new Router({
       path: '/components',
       name: 'components',
       component: () => import(/* webpackChunkName: "about" */ 'views/showComponents.vue')
+    },
+    {
+      path: '/visit',
+      name: 'visit',
+      component: () => import('views/visit.vue')
+    },
+    {
+      path: '/vux',
+      name: 'vux',
+      component: () => import('views/vxDemo.vue')
     }
   ]
 })

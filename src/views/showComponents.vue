@@ -14,6 +14,7 @@
 
 <script>
 import Confirm from 'components/confirm/confirm'
+import { setVisitMixin } from 'common/js/mixin'
 
 export default {
   name: 'components',
@@ -25,6 +26,7 @@ export default {
   },
   created () {
   },
+  mixins: [setVisitMixin],
   methods: {
     showConfirm () {
     //   console.log(this.$refs.confirm.$el)

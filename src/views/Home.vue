@@ -17,6 +17,8 @@
 
 <script>
 import { getHome } from 'api'
+import { setVisitMixin } from 'common/js/mixin'
+
 export default {
   name: 'home',
   data () {
@@ -27,6 +29,7 @@ export default {
   created () {
     this._getList()
   },
+  mixins: [setVisitMixin],
   methods: {
     _getList () {
       getHome().then(res => {

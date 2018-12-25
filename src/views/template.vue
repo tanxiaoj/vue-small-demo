@@ -37,6 +37,8 @@
 
 <script>
 import { getRatings } from 'api'
+import { setVisitMixin } from 'common/js/mixin'
+
 export default {
   name: 'template',
   data () {
@@ -50,6 +52,7 @@ export default {
   created () {
     this._getRatings()
   },
+  mixins: [setVisitMixin],
   methods: {
     toggle () {
       this.status = !this.status
